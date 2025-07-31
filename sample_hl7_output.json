@@ -1,0 +1,35 @@
+{
+  "MessageType": "LabResult",
+  "PatientIdentifier": "12345678",
+  "PatientName": "DOE JOHN A",
+  "OrderID": "ORD123456",
+  "Results": [
+    {
+      "ComponentID": "WBC",
+      "ComponentName": "WHITE BLOOD COUNT",
+      "Value": "15.2",
+      "Units": "10*3/uL",
+      "ReferenceRange": "4.5-11.0",
+      "AbnormalFlag": "H",
+      "Status": "Final"
+    },
+    {
+      "ComponentID": "HGB",
+      "ComponentName": "HEMOGLOBIN",
+      "Value": "6.5",
+      "Units": "g/dL",
+      "ReferenceRange": "12.0-16.0",
+      "AbnormalFlag": "L",
+      "Status": "Final"
+    },
+    {
+      "ComponentID": "PLT",
+      "ComponentName": "PLATELETS",
+      "Value": "45",
+      "Units": "10*3/uL",
+      "ReferenceRange": "150-400",
+      "AbnormalFlag": "L",
+      "Status": "Final"
+    }
+  ]
+}
