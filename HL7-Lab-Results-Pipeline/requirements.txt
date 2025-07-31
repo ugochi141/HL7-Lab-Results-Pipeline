@@ -1,0 +1,5 @@
+hl7==0.4.5
+python-dateutil==2.8.2
+pandas==2.2.3
+asyncio
+aiofiles==24.1.0

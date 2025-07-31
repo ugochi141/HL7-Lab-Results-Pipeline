@@ -1,0 +1,66 @@
+{
+  "status": "success",
+  "data": {
+    "message_id": "MSG002",
+    "patient_id": "98765432",
+    "patient_name": "JANE SMITH",
+    "test_results": [
+      {
+        "test_code": "GLU",
+        "test_name": "GLUCOSE",
+        "value": "35",
+        "unit": "mg/dL",
+        "reference_range": "70-100",
+        "abnormal_flag": "LL",
+        "status": ""
+      },
+      {
+        "test_code": "K",
+        "test_name": "POTASSIUM",
+        "value": "6.8",
+        "unit": "mmol/L",
+        "reference_range": "3.5-5.0",
+        "abnormal_flag": "HH",
+        "status": ""
+      },
+      {
+        "test_code": "HGB",
+        "test_name": "HEMOGLOBIN",
+        "value": "6.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "LL",
+        "status": ""
+      }
+    ],
+    "critical_values": [
+      {
+        "test_code": "GLU",
+        "test_name": "GLUCOSE",
+        "value": "35",
+        "unit": "mg/dL",
+        "reference_range": "70-100",
+        "abnormal_flag": "LL",
+        "status": ""
+      },
+      {
+        "test_code": "K",
+        "test_name": "POTASSIUM",
+        "value": "6.8",
+        "unit": "mmol/L",
+        "reference_range": "3.5-5.0",
+        "abnormal_flag": "HH",
+        "status": ""
+      },
+      {
+        "test_code": "HGB",
+        "test_name": "HEMOGLOBIN",
+        "value": "6.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "LL",
+        "status": ""
+      }
+    ]
+  }
+}
