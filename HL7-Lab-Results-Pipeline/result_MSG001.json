@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "data": {
+    "message_id": "MSG001",
+    "patient_id": "12345678",
+    "patient_name": "JOHN DOE",
+    "test_results": [
+      {
+        "test_code": "WBC",
+        "test_name": "WHITE BLOOD COUNT",
+        "value": "8.5",
+        "unit": "10*3/uL",
+        "reference_range": "4.5-11.0",
+        "abnormal_flag": "N",
+        "status": ""
+      },
+      {
+        "test_code": "HGB",
+        "test_name": "HEMOGLOBIN",
+        "value": "14.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N",
+        "status": ""
+      },
+      {
+        "test_code": "PLT",
+        "test_name": "PLATELETS",
+        "value": "250",
+        "unit": "10*3/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "status": ""
+      }
+    ],
+    "critical_values": []
+  }
+}
